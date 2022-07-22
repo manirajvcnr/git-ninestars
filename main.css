@@ -24,20 +24,51 @@
 }
 .nav-list ul{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+.nav-list a{
+    text-decoration: none;
+}
+.nav-list i{
+    display: none;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
 }
 .nav-list ul li{
     list-style: none;
-    margin: 10px 30px 0 0;
+    margin: 10px 20px 0 0;
 }
 .nav-list ul li a{
     text-decoration: none;
     font-size: 16px;
     font-family: "Open sans",sans-serif;
-    justify-content: space-between;
     padding: 20px 10px;
     font-size: 15px;
     color: #4e4039;
     white-space: nowrap;
     transition: 0.3s;
 }
+.nav-list ul li a:hover{
+    color: #eb5d1e;
+}
+#home {
+    color: #eb5d1e;
+}
+.nav-list ul button{
+    background: #eb5d1e;
+    color: #fff;
+    padding: 10px 25px;
+    margin-left: 30px;
+    border-radius: 50px;
+    border: none;
+}
+@media (max-width:375px){
+    .nav-list i{
+        display: block;
+    }
+    .nav-list ul{
+        display: none;
+    } 
+}
+
