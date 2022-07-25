@@ -1,9 +1,12 @@
-/* full page */
 .full-page{
     margin: auto;
     width: 1500px;
 }
-/* ninestars-navigation */
+.ninestars-container{
+    width: 100%;
+    background: #fef8f5;
+    border-bottom: 2px solid #fcebe3;
+}
 .ninestars-navigation-flex{
     height: 70px;
     width: 100%;
@@ -21,10 +24,12 @@
     letter-spacing: 2px;
     color: #7a6960;
     font-family: 'Raleway', sans-serif;
+    margin-left: 60px;
 }
 .nav-list ul{
     display: flex;
     justify-content: space-between;
+    margin-right: 60px;
 }
 .nav-list a{
     text-decoration: none;
@@ -63,12 +68,75 @@
     border-radius: 50px;
     border: none;
 }
-@media (max-width:375px){
-    .nav-list i{
-        display: block;
-    }
-    .nav-list ul{
-        display: none;
-    } 
+.header-body-container{
+    box-sizing: border-box;
 }
+.header-body-in-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.header-body-left{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.header-body-left h1{
+    font-size: 48px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 56px;
+    color: #4e4039;
+    width: 650px;
+}
+.header-body-left p{
+    color: #a08f86;
+    margin: 15px 0 0 0;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    width: 650px;
+}
+.header-body-left button{
+    border: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #eb5d1e;
+}
+.header-body-left button:hover{
+    background-color: #f67741;
+}
+.header-body-right{
+    width: 50%;
+    box-sizing: border-box;
+}
+.header-body-right img{
+    height: 400px;
+}
+/* .up-down{ 
+    animation: infiniteupdown;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all 1s;
+}
+@keyframes infiniteupdown{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+} */
+
 

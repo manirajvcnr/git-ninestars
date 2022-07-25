@@ -1,0 +1,32 @@
+@media (max-width:400px){
+    .ninestars-navigation-flex{
+        width: auto;
+    }
+   .nav-list i{
+    display: block;
+   } 
+   .nav-list ul{
+    display: none;
+   }
+   .logo h1{
+    font-size: 28px;
+   }
+   .header-body-in-container{
+    flex-direction: column;
+   }
+   .header-body-left{
+    width: 400px;
+   }
+   .header-body-left h1{
+    font-size: 32px;
+   }
+   .header-body-left p{
+    font-size: 16px;
+   }
+   .header-body-right{
+    width: 400px;
+   }
+   .header-body-right img{
+    height: 300px;
+   }
+}
