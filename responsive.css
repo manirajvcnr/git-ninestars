@@ -1,32 +1,44 @@
-@media (max-width:400px){
-    .ninestars-navigation-flex{
-        width: auto;
+@media (max-width:576px){
+    .ninestars-container{
+        height: auto;
+        width: 540px;
+        background: #fef8f5;
     }
-   .nav-list i{
-    display: block;
-   } 
-   .nav-list ul{
-    display: none;
-   }
-   .logo h1{
-    font-size: 28px;
-   }
-   .header-body-in-container{
-    flex-direction: column;
-   }
-   .header-body-left{
-    width: 400px;
-   }
-   .header-body-left h1{
-    font-size: 32px;
-   }
-   .header-body-left p{
-    font-size: 16px;
-   }
-   .header-body-right{
-    width: 400px;
-   }
-   .header-body-right img{
-    height: 300px;
-   }
+    .nav-list i{
+        display: block;
+    }
+    .nav-list ul{
+        display: none;
+    }
+    .header-body-flex{
+        flex-direction: column-reverse;
+        vertical-align: middle;
+        width: 540px;
+    }
+    .body-right{
+        height: 300px;
+        width: 540px;
+    }
+    .body-right img{
+        height: 250px;
+    }
+    .up-down{
+        animation: none;
+    }
+    .body-left{
+        height: 300px;
+        width: 540px;
+        margin-left: 15px;
+    }
+    .body-left h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .body-left p{
+        font-size: 18px;
+    }
+
 }
+
+
+
