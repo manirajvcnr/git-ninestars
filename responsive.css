@@ -1,44 +1,58 @@
 @media (max-width:576px){
-    .ninestars-container{
-        height: auto;
-        width: 540px;
-        background: #fef8f5;
-    }
-    .nav-list i{
-        display: block;
-    }
-    .nav-list ul{
+    .nav-bar ul{
         display: none;
     }
-    .header-body-flex{
+    .icon i{
+        display: block;
+    }
+    .header-flex{
         flex-direction: column-reverse;
-        vertical-align: middle;
-        width: 540px;
+        height: 100%;
     }
-    .body-right{
-        height: 300px;
-        width: 540px;
+    .left{
+        padding: 10px;
     }
-    .body-right img{
-        height: 250px;
+    .left h1{
+        font-size: 22px;
+        line-height: 1;
     }
-    .up-down{
-        animation: none;
+    .left p{
+        font-size: 14px;
     }
-    .body-left{
-        height: 300px;
-        width: 540px;
-        margin-left: 15px;
+    .right{
+        padding: 10px;
     }
-    .body-left h1{
+    .right img{
+        height: 120px;
+    }
+}
+
+@media (max-width:992px){
+    .nav-bar ul{
+        display: none;
+    }
+    .icon i{
+        display: block;
+    }
+    .header-flex{
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .left,.right{
+        padding: 0;
+    }
+    .left h1{
         font-size: 28px;
-        line-height: 36px;
+        line-height: 1;
     }
-    .body-left p{
+    .left p{
         font-size: 18px;
     }
-
+    .right img{
+        height: 170px;
+    }
 }
+
 
 
 
