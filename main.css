@@ -10,7 +10,7 @@ body {
   }
   /* header container */
   .ninestars-container{
-    height: 540px;
+    height: 550px;
     width: 100%;
     background: #fef8f5;
   }
@@ -46,10 +46,13 @@ body {
     display: flex;
     justify-content: center;
 }
-.nav-bar ul li{
+.nav-bar ul li {
     font-size: 15px;
     color: #4e4039;
     padding: 10px 0 10px 30px;
+}
+.nav-bar ul li a{
+    color: #4e4039;
 }
 .nav-bar ul li a:hover{
     color: #eb5d1e;
@@ -112,4 +115,29 @@ body {
     width: 50%;
     text-align: center;
     align-items: center;
+}
+
+/* about us */
+.about-us-container{
+    height: auto;
+    width: 100%;
+}
+.about-flex{
+    display: flex;
+}
+.heading{
+    width: 100%;
+}
+.icon-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-left i{
+   text-decoration: none;
+    color: #f39e7a;
+}
+
+.icon-right i{
+    text-decoration: none;
+    color: #f39e7a;
 }
