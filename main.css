@@ -141,3 +141,73 @@ body {
     text-decoration: none;
     color: #f39e7a;
 }
+/* services */
+.service-container{
+    background-color: #fef8f5;
+    width: 100%;
+    height: auto;
+}
+.service-header{
+    text-align: center;
+    padding: 30px;
+}
+.service-header h2{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 0;
+    line-height: 1px;
+    margin-bottom: 15px;
+    color: #c2b7b1;
+}
+.service-header p{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #4e4039;
+}
+.service-header p::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #eb5d1e;
+    bottom: 0;
+    left: calc(50% - 30px);
+}
+.service-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.service-box{
+    height: 260px;
+    width: 260px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+}
+.service-box i{
+    text-decoration: none;
+    font-size: 48px;
+    color: #eb5d1e;
+    padding: 10px;
+}
+.service-box h3{
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.service-box p{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+}
