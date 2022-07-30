@@ -142,7 +142,7 @@ body {
     color: #f39e7a;
 }
 /* services */
-.service-container{
+/* .service-container{
     background-color: #fef8f5;
     width: 100%;
     height: auto;
@@ -165,7 +165,7 @@ body {
     position: relative;
     font-size: 32px;
     font-weight: 700;
-    color: #4e4039;
+    color: #4e4039; 
 }
 .service-header p::after{
     content: "";
@@ -203,11 +203,11 @@ body {
 }
 .service-box h3{
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: "Open Sans",sans-serif;
     padding: 10px;
 }
 .service-box p{
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
     padding: 10px;
-}
+} */
