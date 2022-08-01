@@ -199,6 +199,61 @@
         padding: 10px;
         line-height: 1.5;
     }
+    /* portfolio */
+    .port-container{
+        height: auto;
+        width: 100%;
+    }
+    .port-header{
+        text-align: center;
+        padding: 30px;
+    }
+    .port-header h2{
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 0;
+        line-height: 1px;
+        margin-bottom: 15px;
+        color: #c2b7b1;
+    }
+    .port-header p{
+        width: auto;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        position: relative;
+        font-size: 28px;
+        font-weight: 700;
+        color: #4e4039;
+        line-height: 1.2;
+    }
+    .port-header p::after{
+        content: "";
+        position: absolute;
+        display: block;
+        width: 60px;
+        height: 2px;
+        background: #eb5d1e;
+        bottom: 0;
+        left: calc(50% - 30px);
+    }
+    .port-flex ul{
+        display: flex;
+        justify-content: space-evenly;
+        cursor: pointer;
+        margin: 0 15px 15px 0;
+        padding: 5px;
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        line-height: 20px;
+        color: #212529;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+    }
+    .port-flex .all{
+        color: #ef7f4d;
+    }
+
 }
 
 /* screen for 576px */
