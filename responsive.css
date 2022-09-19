@@ -1,5 +1,5 @@
 /* screen for 300px */
-@media (min-width:300px){
+@media (min-width:100px){
     /* header */
     .navigation-flex{
         z-index: 999;
